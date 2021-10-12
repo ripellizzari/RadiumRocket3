@@ -1,46 +1,46 @@
 // *************************
 // 02.A
 
-var apellido = 'pellizzari'
+var lastName2 = 'pellizzari'
 
-console.log(apellido.toUpperCase())
+console.log(lastName2.toUpperCase())
 
 // *************************
 // 02.B
 
-var trabajo = 'Asesor Comercial'
-var newTrabajo = trabajo.substring(0,5)
+var work2 = 'Asesor Comercial'
+var newWork2 = work2.substring(0,5)
 
-console.log(newTrabajo)
+console.log(newWork2)
 
 // *************************
 // 02.C
 
-var empresa = 'Uno Propiedades'
-var newEmpresa = empresa.substring(15,12)
+var company = 'Uno Propiedades'
+var newCompany = company.substring(15,12)
 
-console.log(newEmpresa)
+console.log(newCompany)
 
 // *************************
 // 02.D
 
-var estado = 'inconciente'
+var state = 'inconciente'
 
-var newEstado = (estado.substring(0,1).toUpperCase() + estado.substring(1,11).toLowerCase())
-console.log(newEstado)
+var newState = (state.substring(0,1).toUpperCase() + state.substring(1,11).toLowerCase())
+console.log(newState)
 
 // *************************
 // 02.E
 
-var ciudadesArgentinas = 'Santa Teresita';
-var newCiudadesArgentinas = ciudadesArgentinas.indexOf(' '[0])
+var argentinianCities = 'Santa Teresita';
+var newArgentinianCities = argentinianCities.indexOf(' '[0])
 
-console.log(newCiudadesArgentinas)
+console.log(newArgentinianCities)
 
 // *************************
 // 02.F
 
-var verdura = 'zapallo cabutia'
-var newVerdura = verdura.substring(0,1).toUpperCase() + verdura.substring(1,verdura.indexOf(' '[0])).toLowerCase() + ' ' +  verdura.substring(((verdura.indexOf(' '[0]))+1),((verdura.indexOf(' '[0]))+2)).toUpperCase() + verdura.substring(((verdura.indexOf(' '[0]))+2),verdura.length).toLowerCase()
+var vegetable = 'zapallo cabutia'
+var newVegetable = vegetable.substring(0,1).toUpperCase() + vegetable.substring(1,vegetable.indexOf(' '[0])).toLowerCase() + ' ' +  vegetable.substring(((vegetable.indexOf(' '[0]))+1),((vegetable.indexOf(' '[0]))+2)).toUpperCase() + vegetable.substring(((vegetable.indexOf(' '[0]))+2),vegetable.length).toLowerCase()
 
-console.log(newVerdura)
+console.log(newVegetable)

@@ -1,50 +1,50 @@
 // *************************
 // 03.A
 
-var meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre']
+var months = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre']
 
 
-console.log(meses[4])
-console.log(meses[10])
+console.log(months[4])
+console.log(months[10])
 
 // *************************
 // 03.B
 
-console.log(meses.sort())
+console.log(months.sort())
 
 // *************************
 // 03.C
 
-meses.push('Mes al final')
-meses.unshift('Mes al principio')
+months.push('Mes al final')
+months.unshift('Mes al principio')
 
-console.log(meses)
+console.log(months)
 
 // *************************
 // 03.D
 
-meses.shift()
-meses.pop()
+months.shift()
+months.pop()
 
-console.log(meses)
+console.log(months)
 
 // *************************
 // 03.E
 
 
-console.log(meses.reverse())
+console.log(months.reverse())
 
 // *************************
 // 03.F
 
-console.log(meses.join(['-']))
+console.log(months.join(['-']))
 
 // *************************
 // 03.G
 
-var newMeses = meses.slice(4,11)
+var newMonths = months.slice(4,11)
 
-console.log(newMeses)
+console.log(newMonths)
 
 // *************************
 

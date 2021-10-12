@@ -1,14 +1,14 @@
 // *************************
 // 06.A
 
-var c =  suma(3, 5)
+var c =  suma(3, 5);
 
 function suma (a, b) {
         return a + b;
     
 }
 
-console.log(c)
+console.log(c);
 
 // *************************
 // 06.B
@@ -16,15 +16,15 @@ console.log(c)
 
 function validacion (a, b) {
     if (typeof a != 'number' || typeof b != 'number'){
-        alert('error')
-        return NaN
+        alert('error');
+        return NaN;
     } else { 
-        return a+b
+        return a+b;
 
     }
 }
 
-console.log(validacion(10, 8))
+console.log(validacion(10, 8));
 
 
 // *************************
@@ -32,13 +32,13 @@ console.log(validacion(10, 8))
 
 function validateInteger(num) {
     if (Number.isInteger(num)){
-        return true
+        return true;
     } else {
-        return false
+        return false;
     }
  }
 
- console.log(validateInteger(2))
+ console.log(validateInteger(2));
 
 // *************************
 // 06.D
@@ -46,21 +46,21 @@ function validateInteger(num) {
 
  function validacion2 (a, b) {
     if (typeof a != 'number' || typeof b != 'number'){
-        alert('Error')
-        return NaN
+        alert('Error');
+        return NaN;
     } else if (!Number.isInteger(a) || !Number.isInteger(b)){ 
-        alert('Error hay decimal')
-        return Math.round(a+b)
+        alert('Error hay decimal');
+        return Math.round(a+b);
 
     } else {
         
-        alert('Validado' + ' en ' + (a+b) )
+        alert('Validado' + ' en ' + (a+b) );
         
     }
 }
 
 
-console.log(validacion2(1, 14))
+console.log(validacion2(1, 14));
 
 
 // *************************
@@ -68,20 +68,20 @@ console.log(validacion2(1, 14))
 
 function validacion3 (a, b) {
     if (!Number.isInteger(a) || !Number.isInteger(b)){
-        alert('error')
-        return false
+        alert('error');
+        return false;
     } else { 
-        return true
+        return true;
     }
 }
 
 function suma2 (a, b) { 
     if (validacion3(a, b)){
-        return a+b
+        return a+b;
     } 
 }
 
-console.log(suma2(2, 4))
+console.log(suma2(2, 4));
 
 
 

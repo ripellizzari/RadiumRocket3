@@ -1,14 +1,14 @@
 // *************************
 // 04.A
 
-var numAleatorio = Math.random();
-if (numAleatorio >= 0.5) {
+var randomNum = Math.random();
+if (randomNum >= 0.5) {
     alert('Greater than 0,5')
 } else {
     alert('Lower than 0,5')
 }
 
-console.log(numAleatorio)
+console.log(randomNum)
 
 // *************************
 // 04.B

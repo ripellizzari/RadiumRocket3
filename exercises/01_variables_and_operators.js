@@ -11,17 +11,17 @@ console.log(num3)
 // *************************
 // 01.B
 
-var nombre = 'Rodrigo'
-var apellido = ' Pellizzari'
-var nombreCompleto = (nombre + apellido)
+var aName = 'Rodrigo'
+var lastName = ' Pellizzari'
+var fullName = (aName + lastName)
 
-console.log(nombreCompleto)
+console.log(fullName)
 
 // *************************
 // 01.C
 
-var trabajo = 'comercial'
-var ciudad = 'rosario'
+var work = 'comercial'
+var city = 'rosario'
 
-var longitud = trabajo.length + ciudad.length
-console.log(longitud)
+var characterLength = work.length + city.length
+console.log(characterLength)

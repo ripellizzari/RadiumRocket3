@@ -1,17 +1,17 @@
 // *************************
 // 05.A
 
-var nombres = ['rodrigo', 'matias', 'marcos', 'natalia', 'roberta']
+var names = ['rodrigo', 'matias', 'marcos', 'natalia', 'roberta'];
 
 for ( var i = 0; i <= 4; i++) {
-    alert(nombres[i])
+    alert(names[i]);
 }
 
 // *************************
 // 05.B
 
 for ( var i = 0; i <= 4; i++) {
-    alert(nombres[i].substring(0,1).toUpperCase()+ nombres[i].substring(1,nombres[i].length))
+    alert(names[i].substring(0,1).toUpperCase()+ names[i].substring(1,names[i].length));
 }
 
 
@@ -21,11 +21,11 @@ for ( var i = 0; i <= 4; i++) {
 
 var sentence = '';
 
-for (var i = 0; i < nombres.length; i++){ 
-     sentence += nombres[i] + ' '
+for (var i = 0; i < names.length; i++){ 
+     sentence += names[i] + ' ';
 }
 
-alert(sentence)
+alert(sentence);
 
 // *************************
 // 05.D
@@ -36,4 +36,4 @@ for (var i = 0; i< 10; i++){
     emptyArray[i]=i;
 
 }
-console.log(emptyArray)
+console.log(emptyArray);
